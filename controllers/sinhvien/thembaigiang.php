@@ -1,6 +1,6 @@
 <?php
 if (isset($_GET['action'])) {
-		if ($_GET['action'] == 'thembaigiang') {
+		if ($_GET['action'] == 'thembaigiangsv') {
 			$Fun_XBG = new Fun_XemBaiGiang;
 			$data = $db->get_name_subject();
 			$count = count($data);
